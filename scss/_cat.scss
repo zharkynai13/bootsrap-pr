@@ -1,0 +1,40 @@
+@import "vars";
+
+.cat {
+  padding: 60px 0;
+
+  &__item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 419px;
+    background-image: url("../images/img\ 2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    &--women {
+      background-image: url("../images/img\ 3.jpg");
+    }
+    &--acces {
+      background-image: url("../images/img\ 4.jpg");
+    }
+    &-title {
+      font-family: $secon-font;
+      font-style: italic;
+      font-weight: 300;
+      font-size: 40px;
+      line-height: 40px;
+      text-transform: capitalize;
+
+     
+    }
+    
+  }
+  &__link {
+      color: $ligth;
+      text-decoration: none;
+  }
+  
+}
