@@ -1,0 +1,53 @@
+@import "vars";
+
+.banner {
+  min-height: 544px;
+  padding-top: 140px;
+  padding-bottom: 89px;
+  text-align: center;
+  color: $ligth;
+  text-transform: uppercase;
+  background-image: url("../images/img\ 1.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  &__title {
+    margin: 0 0 45px;
+    font-family: $secon-font;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 30px;
+    letter-spacing: 0.5em;
+  }
+
+  &__info {
+    margin: 0 0 45px;
+    font-family: $main-font;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 55px;
+    line-height: 60px;
+  }
+  &__info-details {
+    margin: 0 0 45px;
+    font-family: $secon-font;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 30px;
+  }
+  &__btn {
+    font-family: $main-font;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 18px;
+    text-transform: uppercase;
+    color: $ligth;
+    border: 2px solid #ffffff;
+    box-sizing: border-box;
+    padding: 21px 41px 16px 56px;
+  }
+}

@@ -1,0 +1,31 @@
+@import "vars";
+
+.blog {
+
+
+  &__list {
+   display: grid;
+  }
+  &__info-title {
+     padding-top: 20px;
+    font-family: $main-font;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+    text-transform: capitalize;
+    color: $accent;
+  }
+  &__btn {
+    font-family: $secon-font;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;    
+    text-transform: uppercase;
+    color: $dark;
+    text-decoration: none;
+    border: 1px solid $dark;
+    padding: 2px 5px;
+  }
+}
